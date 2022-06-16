@@ -33,10 +33,10 @@ const About = () => {
   
 
   return (
-    <>
-      <h2 className='head-text'>I know that<span> Good Design </span><br/>means<span> Good Business</span></h2>
+    <> 
+      <h2 className='head-text'><span>Innovation </span> is the outcome of a <span> habit </span>, not a random act</h2>
 
-      <div className='app__profiles'>
+      { false && <div className='app__profiles'>
         {abouts.map((about, index) => (
             <motion.div
               whileInView={{ opacity: 1 }}
@@ -51,7 +51,7 @@ const About = () => {
 
             </motion.div>
           ))}
-      </div>
+      </div>}
 
     </>
   )

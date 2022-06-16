@@ -3,10 +3,10 @@
 :root {
   --font-base: "DM Sans", sans-serif;
 
-  --primary-color: #edf2f8;
-  --secondary-color: #313bac;
+  --primary-color: #f0fbf8;
+  --secondary-color: #23bc96;
   --black-color: #030303;
-  --lightGray-color: #e4e4e4;
+  --lightGray-color: ##bdf4e6;
   --gray-color: #6b7688;
   --brown-color: #46364a;
   --white-color: #ffffff;
@@ -18,5 +18,3 @@
   margin: 0;
   scroll-behavior: smooth;
 }
-
-
